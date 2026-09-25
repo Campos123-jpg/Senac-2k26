@@ -1,0 +1,55 @@
+[
+    {
+        "id": 1,
+        "name": "Project",
+        "version": "1.0.0",
+        "description": "A sample project configuration file.",
+        "main": "index.js",
+        "scripts": {
+            "start": "node index.js",
+            "test": "echo \"Error: no test specified\" && exit 1"
+        },
+        "author": "",
+        "license": "ISC"
+    },
+    {
+        "id": 2,
+        "name": "Project 2",
+        "version": "1.0.0",
+        "description": "A sample project configuration file.",
+        "main": "index.js",
+        "scripts": {
+            "start": "node index.js",
+            "test": "echo \"Error: no test specified\" && exit 1"
+        },
+        "author": "",
+        "license": "ISC"
+    },
+    {
+        "id": 3,
+        "name": "Project 3",
+        "version": "1.0.0",
+        "description": "A sample project configuration file.",
+        "main": "index.js",
+        "scripts": {
+            "start": "node index.js",
+            "test": "echo \"Error: no test specified\" && exit 1"
+        },
+        "author": "",
+        "license": "ISC"
+
+    },
+    {
+        "id": 4,
+        "name": "Project 4",
+        "version": "1.0.0",
+        "description": "A sample project configuration file.",
+        "main": "index.js",
+        "scripts": {
+            "start": "node index.js",
+            "test": "echo \"Error: no test specified\" && exit 1"
+        },
+        "author": "",
+        "license": "ISC"
+    }
+]
