@@ -1,0 +1,41 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: rgb(186, 192, 70);
+    color: rgb(0, 0, 0);
+    padding: 30px;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#texto {
+    font-size: 16px;
+    color: gray;
+}
+
+.dark-mode {
+    background-color: #474c07;
+    color: rgb(27, 30, 4);
+}
+textarea {
+    width: 80%;
+    height: 100px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+select, input, button {
+    padding: 8px;
+    margin: 5px;
+}
+
+#texto {
+    min-height: 40px;
+    padding: 15px;
+    font-size: 16px;
+}

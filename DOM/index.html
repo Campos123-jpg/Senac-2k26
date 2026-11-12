@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade DOM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    
+<h1>Meu Editor de Texto</h1>
+
+<textarea id="entrada" placeholder="Digite seu texto aqui..."></textarea>
+
+<br><br>
+
+<button onclick="escreverTexto()">Escrever texto</button>
+
+<p id="texto">Seu texto aparecerá aqui!</p>
+
+<hr>
+
+<button onclick="negrito()">Negrito</button>
+<button onclick="italico()">Itálico</button>
+<button onclick="sublinhado()">Sublinhado</button>
+
+<label for="cor">Cor:</label>
+<input type="color" id="cor" onchange="alterarCor()">
+
+<label for="fonte">Fonte:</label>
+<select id="fonte" onchange="alterarFonte()">
+    <option value="Arial">Arial</option>
+    <option value="Georgia">Georgia</option>
+    <option value="Verdana">Verdana</option>
+    <option value="Courier New">Courier New</option>
+    <option value="Times New Roman">Times New Roman</option>
+    <option value="Impact">Impact</option>
+</select>
+
+<button onclick="zoom('aumentar')">A+</button>
+<button onclick="zoom('diminuir')">A-</button>
+
+<button onclick="ligarLampada()">Ligar Lâmpada</button>
+<button onclick="alterarTema()" id="tema">🌑</button>
+
+<script src="script.js"></script>
+</body>
+
