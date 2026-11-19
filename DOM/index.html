@@ -10,21 +10,15 @@
 <body>
 
     
-<h1>Meu Editor de Texto</h1>
+<h1>Edite seu texto</h1>
 
-<textarea id="entrada" placeholder="Digite seu texto aqui..."></textarea>
-
-<br><br>
-
-<button onclick="escreverTexto()">Escrever texto</button>
-
-<p id="texto">Seu texto aparecerá aqui!</p>
+<p id="texto" contenteditable="true" data-placeholder="Digite seu texto aqui..."></p>
 
 <hr>
 
-<button onclick="negrito()">Negrito</button>
-<button onclick="italico()">Itálico</button>
-<button onclick="sublinhado()">Sublinhado</button>
+<button onclick="negrito()" style="font-weight: bold;">N</button>
+<button onclick="italico()" style="font-style: italic;">I</button>
+<button onclick="sublinhado()" style="text-decoration: underline;">S</button>
 
 <label for="cor">Cor:</label>
 <input type="color" id="cor" onchange="alterarCor()">
@@ -37,12 +31,13 @@
     <option value="Courier New">Courier New</option>
     <option value="Times New Roman">Times New Roman</option>
     <option value="Impact">Impact</option>
+    <option value="Comic Sans MS">Comic Sans MS</option>
+
 </select>
 
 <button onclick="zoom('aumentar')">A+</button>
 <button onclick="zoom('diminuir')">A-</button>
 
-<button onclick="ligarLampada()">Ligar Lâmpada</button>
 <button onclick="alterarTema()" id="tema">🌑</button>
 
 <script src="script.js"></script>

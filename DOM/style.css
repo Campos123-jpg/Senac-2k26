@@ -2,40 +2,43 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: rgb(186, 192, 70);
+    background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     padding: 30px;
 }
 
 button {
+    border-radius: 10px;
     padding: 10px 15px;
     margin: 5px;
     cursor: pointer;
 }
 
 #texto {
+    border: 1px solid gray;
+    padding: 20px;
+    min-height: 100px;
+    cursor: text;
     font-size: 16px;
-    color: gray;
+}
+#texto:empty::before {
+    content: attr(data-placeholder);
+    color: #999;
+}
+.dark-mode {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
 }
 
-.dark-mode {
-    background-color: #474c07;
-    color: rgb(27, 30, 4);
-}
-textarea {
-    width: 80%;
-    height: 100px;
-    padding: 10px;
-    font-size: 16px;
-}
 
 select, input, button {
-    padding: 8px;
+    padding: 10px;
     margin: 5px;
 }
 
-#texto {
-    min-height: 40px;
-    padding: 15px;
+#fonte {
     font-size: 16px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
 }

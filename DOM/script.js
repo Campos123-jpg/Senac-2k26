@@ -92,11 +92,6 @@ let texto = document.getElementById("texto")
 
 }
 
-function ligarLampada(){
-
-
-}
-
 function alterarTema(){
 
     let corpo = document.body;
